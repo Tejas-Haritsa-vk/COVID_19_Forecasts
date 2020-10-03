@@ -1,8 +1,8 @@
 import time
 from datetime import date
 from datetime import datetime as d
-from main_app_v2 import fit_model, forecast_cases
-from Update_Database_v2 import update_database, forecasted_database
+from main_app_v3 import fit_model, forecast_cases, fit_model_active_cases
+from Update_Database_v4 import update_database, forecasted_database
 
 def auto_update():
     run = True
@@ -13,6 +13,7 @@ def auto_update():
             try:
                 update_database()
                 fit_model()
+                fit_model_active_cases()
                 forecasted_database()
                 run_status = "Database Updated"
                 

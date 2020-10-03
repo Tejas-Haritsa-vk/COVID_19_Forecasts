@@ -236,26 +236,26 @@ footer a {
 <div class="header">
   <h1 class="Title" style="font:Times New Roman; padding: 20px 0px 0px 0px; color: white;"> COVID-19 Forecasts </h1>
   <div class="navbar">
-  <a href="http://15.206.28.4:9000/Home">Home</a>
-  <a href="http://15.206.28.4:9000/forecast?region=World">World</a>
+  <a href="http://15.207.167.44:9000/Home">Home</a>
+  <a href="http://15.207.167.44:9000/forecast?region=World">World</a>
   <div class="dropdown">
     <button class="dropbtn">States (A-H)
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-    <a href="http://15.206.28.4:9000/forecast?region=Andaman%20and%20Nicobar%20Islands">Andaman and Nicobar Islands</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Andhra%20Pradesh">Andhra Pradesh</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Arunachal%20Pradesh">Arunachal Pradesh</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Assam">Assam</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Bihar">Bihar</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Chandigarh">Chandigarh</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Chhattisgarh">Chhattisgarh</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Dadra%20and%20Nagar%20Haveli%20and%20Daman%20and%20Diu">Dadra and Nagar Haveli and Daman and Diu</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Delhi">Delhi</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Goa">Goa</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Gujarat">Gujarat</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Haryana">Haryana</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Himachal%20Pradesh">Himachal Pradesh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Andaman%20and%20Nicobar%20Islands">Andaman and Nicobar Islands</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Andhra%20Pradesh">Andhra Pradesh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Arunachal%20Pradesh">Arunachal Pradesh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Assam">Assam</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Bihar">Bihar</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Chandigarh">Chandigarh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Chhattisgarh">Chhattisgarh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Dadra%20and%20Nagar%20Haveli%20and%20Daman%20and%20Diu">Dadra and Nagar Haveli and Daman and Diu</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Delhi">Delhi</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Goa">Goa</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Gujarat">Gujarat</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Haryana">Haryana</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Himachal%20Pradesh">Himachal Pradesh</a>
     </div>
     </div>
     <div class="dropdown">
@@ -263,20 +263,20 @@ footer a {
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-    <a href="http://15.206.28.4:9000/forecast?region=Jammu%20and%20Kashmir">Jammu and Kashmir</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Jharkhand">Jharkhand</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Karnataka">Karnataka</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Kerala">Kerala</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Ladakh">Ladakh</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Madhya%20Pradesh">Madhya Pradesh</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Maharashtra">Maharashtra</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Manipur">Manipur</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Meghalaya">Meghalaya</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Mizoram">Mizoram</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Nagaland">Nagaland</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Odisha">Odisha</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Puducherry">Puducherry</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Punjab">Punjab</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Jammu%20and%20Kashmir">Jammu and Kashmir</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Jharkhand">Jharkhand</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Karnataka">Karnataka</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Kerala">Kerala</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Ladakh">Ladakh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Madhya%20Pradesh">Madhya Pradesh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Maharashtra">Maharashtra</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Manipur">Manipur</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Meghalaya">Meghalaya</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Mizoram">Mizoram</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Nagaland">Nagaland</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Odisha">Odisha</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Puducherry">Puducherry</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Punjab">Punjab</a>
     </div>
     </div>
     <div class="dropdown">
@@ -284,17 +284,17 @@ footer a {
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-    <a href="http://15.206.28.4:9000/forecast?region=Rajasthan">Rajasthan</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Sikkim">Sikkim</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Tamil%20Nadu">Tamil Nadu</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Telangana">Telangana</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Tripura">Tripura</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Uttar%20Pradesh">Uttar Pradesh</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Uttarakhand">Uttarakhand</a>
-    <a href="http://15.206.28.4:9000/forecast?region=West%20Bengal">West Bengal</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Rajasthan">Rajasthan</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Sikkim">Sikkim</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Tamil%20Nadu">Tamil Nadu</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Telangana">Telangana</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Tripura">Tripura</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Uttar%20Pradesh">Uttar Pradesh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Uttarakhand">Uttarakhand</a>
+    <a href="http://15.207.167.44:9000/forecast?region=West%20Bengal">West Bengal</a>
     </div>
   </div> 
-  <a href="http://15.206.28.4:9000/About">About</a>
+  <a href="http://15.207.167.44:9000/About">About</a>
   </div>
 </body>'''
 
@@ -438,26 +438,26 @@ footer a {
 <div class="header">
   <h2 class="Title" style="font:Times New Roman; padding: 20px 0px 0px 0px; color: white;"> COVID-19 Forecasts </h2>
   <div class="navbar">
-  <a style="padding: 12px 4px 14px 6px;" href="http://15.206.28.4:9000/Home">Home</a>
-  <a style="padding: 12px 4px 14px 4px;" href="http://15.206.28.4:9000/forecast?region=World">World</a>
+  <a style="padding: 12px 4px 14px 6px;" href="http://15.207.167.44:9000/Home">Home</a>
+  <a style="padding: 12px 4px 14px 4px;" href="http://15.207.167.44:9000/forecast?region=World">World</a>
   <div class="dropdown">
     <button style="padding: 12px 4px 14px 2px;" class="dropbtn">States (A-H)
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-    <a href="http://15.206.28.4:9000/forecast?region=Andaman%20and%20Nicobar%20Islands">Andaman and Nicobar Islands</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Andhra%20Pradesh">Andhra Pradesh</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Arunachal%20Pradesh">Arunachal Pradesh</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Assam">Assam</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Bihar">Bihar</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Chandigarh">Chandigarh</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Chhattisgarh">Chhattisgarh</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Dadra%20and%20Nagar%20Haveli%20and%20Daman%20and%20Diu">Dadra and Nagar Haveli and Daman and Diu</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Delhi">Delhi</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Goa">Goa</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Gujarat">Gujarat</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Haryana">Haryana</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Himachal%20Pradesh">Himachal Pradesh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Andaman%20and%20Nicobar%20Islands">Andaman and Nicobar Islands</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Andhra%20Pradesh">Andhra Pradesh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Arunachal%20Pradesh">Arunachal Pradesh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Assam">Assam</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Bihar">Bihar</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Chandigarh">Chandigarh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Chhattisgarh">Chhattisgarh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Dadra%20and%20Nagar%20Haveli%20and%20Daman%20and%20Diu">Dadra and Nagar Haveli and Daman and Diu</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Delhi">Delhi</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Goa">Goa</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Gujarat">Gujarat</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Haryana">Haryana</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Himachal%20Pradesh">Himachal Pradesh</a>
     </div>
     </div>
     <div class="dropdown">
@@ -465,20 +465,20 @@ footer a {
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-    <a href="http://15.206.28.4:9000/forecast?region=Jammu%20and%20Kashmir">Jammu and Kashmir</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Jharkhand">Jharkhand</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Karnataka">Karnataka</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Kerala">Kerala</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Ladakh">Ladakh</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Madhya%20Pradesh">Madhya Pradesh</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Maharashtra">Maharashtra</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Manipur">Manipur</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Meghalaya">Meghalaya</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Mizoram">Mizoram</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Nagaland">Nagaland</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Odisha">Odisha</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Puducherry">Puducherry</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Punjab">Punjab</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Jammu%20and%20Kashmir">Jammu and Kashmir</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Jharkhand">Jharkhand</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Karnataka">Karnataka</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Kerala">Kerala</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Ladakh">Ladakh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Madhya%20Pradesh">Madhya Pradesh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Maharashtra">Maharashtra</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Manipur">Manipur</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Meghalaya">Meghalaya</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Mizoram">Mizoram</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Nagaland">Nagaland</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Odisha">Odisha</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Puducherry">Puducherry</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Punjab">Punjab</a>
     </div>
     </div>
     <div class="dropdown">
@@ -486,17 +486,17 @@ footer a {
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-    <a href="http://15.206.28.4:9000/forecast?region=Rajasthan">Rajasthan</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Sikkim">Sikkim</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Tamil%20Nadu">Tamil Nadu</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Telangana">Telangana</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Tripura">Tripura</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Uttar%20Pradesh">Uttar Pradesh</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Uttarakhand">Uttarakhand</a>
-    <a href="http://15.206.28.4:9000/forecast?region=West%20Bengal">West Bengal</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Rajasthan">Rajasthan</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Sikkim">Sikkim</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Tamil%20Nadu">Tamil Nadu</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Telangana">Telangana</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Tripura">Tripura</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Uttar%20Pradesh">Uttar Pradesh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Uttarakhand">Uttarakhand</a>
+    <a href="http://15.207.167.44:9000/forecast?region=West%20Bengal">West Bengal</a>
     </div>
   </div> 
-  <a style="padding: 12px 8px 14px 4px;" href="http://15.206.28.4:9000/About">About</a>
+  <a style="padding: 12px 8px 14px 4px;" href="http://15.207.167.44:9000/About">About</a>
   </div> 
 </div>
 </body>'''
@@ -624,26 +624,26 @@ th, td {
 <div class="header">
   <h1 class="Title" style="font:Times New Roman; padding: 20px 0px 0px 0px; color: white;"> COVID-19 Forecasts </h1>
   <div class="navbar">
-  <a href="http://15.206.28.4:9000/Home">Home</a>
-  <a href="http://15.206.28.4:9000/forecast?region=World">World</a>
+  <a href="http://15.207.167.44:9000/Home">Home</a>
+  <a href="http://15.207.167.44:9000/forecast?region=World">World</a>
   <div class="dropdown">
     <button class="dropbtn">States (A-H)
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-    <a href="http://15.206.28.4:9000/forecast?region=Andaman%20and%20Nicobar%20Islands">Andaman and Nicobar Islands</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Andhra%20Pradesh">Andhra Pradesh</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Arunachal%20Pradesh">Arunachal Pradesh</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Assam">Assam</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Bihar">Bihar</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Chandigarh">Chandigarh</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Chhattisgarh">Chhattisgarh</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Dadra%20and%20Nagar%20Haveli%20and%20Daman%20and%20Diu">Dadra and Nagar Haveli and Daman and Diu</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Delhi">Delhi</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Goa">Goa</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Gujarat">Gujarat</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Haryana">Haryana</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Himachal%20Pradesh">Himachal Pradesh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Andaman%20and%20Nicobar%20Islands">Andaman and Nicobar Islands</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Andhra%20Pradesh">Andhra Pradesh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Arunachal%20Pradesh">Arunachal Pradesh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Assam">Assam</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Bihar">Bihar</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Chandigarh">Chandigarh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Chhattisgarh">Chhattisgarh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Dadra%20and%20Nagar%20Haveli%20and%20Daman%20and%20Diu">Dadra and Nagar Haveli and Daman and Diu</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Delhi">Delhi</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Goa">Goa</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Gujarat">Gujarat</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Haryana">Haryana</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Himachal%20Pradesh">Himachal Pradesh</a>
     </div>
     </div>
     <div class="dropdown">
@@ -651,20 +651,20 @@ th, td {
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-    <a href="http://15.206.28.4:9000/forecast?region=Jammu%20and%20Kashmir">Jammu and Kashmir</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Jharkhand">Jharkhand</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Karnataka">Karnataka</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Kerala">Kerala</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Ladakh">Ladakh</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Madhya%20Pradesh">Madhya Pradesh</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Maharashtra">Maharashtra</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Manipur">Manipur</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Meghalaya">Meghalaya</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Mizoram">Mizoram</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Nagaland">Nagaland</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Odisha">Odisha</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Puducherry">Puducherry</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Punjab">Punjab</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Jammu%20and%20Kashmir">Jammu and Kashmir</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Jharkhand">Jharkhand</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Karnataka">Karnataka</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Kerala">Kerala</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Ladakh">Ladakh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Madhya%20Pradesh">Madhya Pradesh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Maharashtra">Maharashtra</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Manipur">Manipur</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Meghalaya">Meghalaya</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Mizoram">Mizoram</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Nagaland">Nagaland</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Odisha">Odisha</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Puducherry">Puducherry</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Punjab">Punjab</a>
     </div>
     </div>
     <div class="dropdown">
@@ -672,17 +672,17 @@ th, td {
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-    <a href="http://15.206.28.4:9000/forecast?region=Rajasthan">Rajasthan</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Sikkim">Sikkim</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Tamil%20Nadu">Tamil Nadu</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Telangana">Telangana</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Tripura">Tripura</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Uttar%20Pradesh">Uttar Pradesh</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Uttarakhand">Uttarakhand</a>
-    <a href="http://15.206.28.4:9000/forecast?region=West%20Bengal">West Bengal</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Rajasthan">Rajasthan</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Sikkim">Sikkim</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Tamil%20Nadu">Tamil Nadu</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Telangana">Telangana</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Tripura">Tripura</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Uttar%20Pradesh">Uttar Pradesh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Uttarakhand">Uttarakhand</a>
+    <a href="http://15.207.167.44:9000/forecast?region=West%20Bengal">West Bengal</a>
     </div>
   </div> 
-  <a href="http://15.206.28.4:9000/About">About</a>
+  <a href="http://15.207.167.44:9000/About">About</a>
   </div>
 </div>
 
@@ -756,7 +756,7 @@ For any further information on MoFW, you can reach them through the following ma
 <p><i><strong>Maximum Forecastable Timeline:</strong></i> Since this is a simple data dependent model the maximum rationally considerable forecasts for this particular subject is 30-31 days.</p><br>
 <p><i><strong>End date:</strong></i> We are only making projections for 30-31 days/ 4-5 weeks ahead, but this does not mean that the epidemic will stop afterwards. Reported Cases may continue to rise even after we stop making projections. We currently plan on keeping the model updated on a daily basis until a cure has been found and the COVID-19 Pandemic ends.</p><br>
 <h2>Who We Are</h2>
-<p>This website is made by Tejas Haritsa V K, An <a href="https://iabac.org/">IABAC</a> Certified Data Scientist currently working as an AI Engineer at <a href="https://www.teleradtech.com/">TeleradTech</a>, Bengaluru, India.  Tejas Haritsa V K completed his Bachelor’s degree in Mechanical Engineering at the <a href="https://dbit.co.in/">Don Bosco Institute of Technology(DBIT), Bengaluru</a>. His expertise is in using machine learning to understand data and make accurate predictions. You can contact him on the mentioned channels on the <a href="http://15.206.28.4:9000/About">Contact page</a>.</p><br>
+<p>This website is made by Tejas Haritsa V K, An <a href="https://iabac.org/">IABAC</a> Certified Data Scientist currently working as an AI Engineer at <a href="https://www.teleradtech.com/">TeleradTech</a>, Bengaluru, India.  Tejas Haritsa V K completed his Bachelor’s degree in Mechanical Engineering at the <a href="https://dbit.co.in/">Don Bosco Institute of Technology(DBIT), Bengaluru</a>. His expertise is in using machine learning to understand data and make accurate predictions. You can contact him on the mentioned channels on the <a href="http://15.207.167.44:9000/About">Contact page</a>.</p><br>
 <h2>Updates</h2>
 <p> 06-08-2020: Added support for mobile devices </p>
 <p> 08-08-2020: Added About page </p>
@@ -765,7 +765,7 @@ For any further information on MoFW, you can reach them through the following ma
 </div>
 </body>
 </html>
-<footer style="padding: 12px 0px 0px 0px;"> <a href="http://15.206.28.4:9000/About">About</a> &emsp; | &emsp; <a href="http://15.206.28.4:9000/About">Contact Us</a> </footer> '''
+<footer style="padding: 12px 0px 0px 0px;"> <a href="http://15.207.167.44:9000/About">About</a> &emsp; | &emsp; <a href="http://15.207.167.44:9000/About">Contact Us</a> </footer> '''
 
 
 def get_about_mobile():
@@ -888,26 +888,26 @@ th, td {
 <div class="header">
   <h2 class="Title" style="font:Times New Roman; padding: 20px 0px 0px 0px; color: white;"> COVID-19 Forecasts </h2>
   <div class="navbar">
-  <a style="padding: 12px 4px 14px 6px;" href="http://15.206.28.4:9000/Home">Home</a>
-  <a style="padding: 12px 4px 14px 4px;" href="http://15.206.28.4:9000/forecast?region=World">World</a>
+  <a style="padding: 12px 4px 14px 6px;" href="http://15.207.167.44:9000/Home">Home</a>
+  <a style="padding: 12px 4px 14px 4px;" href="http://15.207.167.44:9000/forecast?region=World">World</a>
   <div class="dropdown">
     <button style="padding: 12px 4px 14px 2px;" class="dropbtn">States (A-H)
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-    <a href="http://15.206.28.4:9000/forecast?region=Andaman%20and%20Nicobar%20Islands">Andaman and Nicobar Islands</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Andhra%20Pradesh">Andhra Pradesh</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Arunachal%20Pradesh">Arunachal Pradesh</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Assam">Assam</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Bihar">Bihar</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Chandigarh">Chandigarh</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Chhattisgarh">Chhattisgarh</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Dadra%20and%20Nagar%20Haveli%20and%20Daman%20and%20Diu">Dadra and Nagar Haveli and Daman and Diu</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Delhi">Delhi</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Goa">Goa</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Gujarat">Gujarat</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Haryana">Haryana</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Himachal%20Pradesh">Himachal Pradesh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Andaman%20and%20Nicobar%20Islands">Andaman and Nicobar Islands</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Andhra%20Pradesh">Andhra Pradesh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Arunachal%20Pradesh">Arunachal Pradesh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Assam">Assam</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Bihar">Bihar</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Chandigarh">Chandigarh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Chhattisgarh">Chhattisgarh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Dadra%20and%20Nagar%20Haveli%20and%20Daman%20and%20Diu">Dadra and Nagar Haveli and Daman and Diu</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Delhi">Delhi</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Goa">Goa</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Gujarat">Gujarat</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Haryana">Haryana</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Himachal%20Pradesh">Himachal Pradesh</a>
     </div>
     </div>
     <div class="dropdown">
@@ -915,20 +915,20 @@ th, td {
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-    <a href="http://15.206.28.4:9000/forecast?region=Jammu%20and%20Kashmir">Jammu and Kashmir</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Jharkhand">Jharkhand</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Karnataka">Karnataka</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Kerala">Kerala</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Ladakh">Ladakh</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Madhya%20Pradesh">Madhya Pradesh</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Maharashtra">Maharashtra</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Manipur">Manipur</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Meghalaya">Meghalaya</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Mizoram">Mizoram</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Nagaland">Nagaland</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Odisha">Odisha</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Puducherry">Puducherry</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Punjab">Punjab</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Jammu%20and%20Kashmir">Jammu and Kashmir</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Jharkhand">Jharkhand</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Karnataka">Karnataka</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Kerala">Kerala</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Ladakh">Ladakh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Madhya%20Pradesh">Madhya Pradesh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Maharashtra">Maharashtra</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Manipur">Manipur</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Meghalaya">Meghalaya</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Mizoram">Mizoram</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Nagaland">Nagaland</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Odisha">Odisha</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Puducherry">Puducherry</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Punjab">Punjab</a>
     </div>
     </div>
     <div class="dropdown">
@@ -936,17 +936,17 @@ th, td {
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-    <a href="http://15.206.28.4:9000/forecast?region=Rajasthan">Rajasthan</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Sikkim">Sikkim</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Tamil%20Nadu">Tamil Nadu</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Telangana">Telangana</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Tripura">Tripura</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Uttar%20Pradesh">Uttar Pradesh</a>
-    <a href="http://15.206.28.4:9000/forecast?region=Uttarakhand">Uttarakhand</a>
-    <a href="http://15.206.28.4:9000/forecast?region=West%20Bengal">West Bengal</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Rajasthan">Rajasthan</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Sikkim">Sikkim</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Tamil%20Nadu">Tamil Nadu</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Telangana">Telangana</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Tripura">Tripura</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Uttar%20Pradesh">Uttar Pradesh</a>
+    <a href="http://15.207.167.44:9000/forecast?region=Uttarakhand">Uttarakhand</a>
+    <a href="http://15.207.167.44:9000/forecast?region=West%20Bengal">West Bengal</a>
     </div>
   </div> 
-  <a style="padding: 12px 8px 14px 4px;" href="http://15.206.28.4:9000/About">About</a>
+  <a style="padding: 12px 8px 14px 4px;" href="http://15.207.167.44:9000/About">About</a>
   </div> 
 </div>
 
@@ -1020,7 +1020,7 @@ For any further information on MoFW, you can reach them through the following ma
 <p><i><strong>Maximum Forecastable Timeline:</strong></i> Since this is a simple data dependent model the maximum rationally considerable forecasts for this particular subject is 30-31 days.</p><br>
 <p><i><strong>End date:</strong></i> We are only making projections for 30-31 days/ 4-5 weeks ahead, but this does not mean that the epidemic will stop afterwards. Reported Cases may continue to rise even after we stop making projections. We currently plan on keeping the model updated on a daily basis until a cure has been found and the COVID-19 Pandemic ends.</p><br>
 <h2>Who We Are</h2>
-<p>This website is made by Tejas Haritsa V K, An <a href="https://iabac.org/">IABAC</a> Certified Data Scientist currently working as an AI Engineer at <a href="https://www.teleradtech.com/">TeleradTech</a>, Bengaluru, India.  Tejas Haritsa V K completed his Bachelor’s degree in Mechanical Engineering at the <a href="https://dbit.co.in/">Don Bosco Institute of Technology(DBIT), Bengaluru</a>. His expertise is in using machine learning to understand data and make accurate predictions. You can contact him on the mentioned channels on the <a href="http://15.206.28.4:9000/About">Contact page</a>.</p><br>
+<p>This website is made by Tejas Haritsa V K, An <a href="https://iabac.org/">IABAC</a> Certified Data Scientist currently working as an AI Engineer at <a href="https://www.teleradtech.com/">TeleradTech</a>, Bengaluru, India.  Tejas Haritsa V K completed his Bachelor’s degree in Mechanical Engineering at the <a href="https://dbit.co.in/">Don Bosco Institute of Technology(DBIT), Bengaluru</a>. His expertise is in using machine learning to understand data and make accurate predictions. You can contact him on the mentioned channels on the <a href="http://15.207.167.44:9000/About">Contact page</a>.</p><br>
 <h2>Updates</h2>
 <p> 06-08-2020: Added support for mobile devices </p>
 <p> 08-08-2020: Added About page </p>
@@ -1029,7 +1029,7 @@ For any further information on MoFW, you can reach them through the following ma
 </div>
 </body>
 </html>
-<footer style="padding: 12px 0px 0px 0px;"> <a href="http://15.206.28.4:9000/About">About</a> &emsp; | &emsp; <a href="http://15.206.28.4:9000/About">Contact Us</a> </footer>'''
+<footer style="padding: 12px 0px 0px 0px;"> <a href="http://15.207.167.44:9000/About">About</a> &emsp; | &emsp; <a href="http://15.207.167.44:9000/About">Contact Us</a> </footer>'''
 
 
 
