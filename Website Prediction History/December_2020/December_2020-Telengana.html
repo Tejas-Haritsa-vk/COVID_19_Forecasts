@@ -1,0 +1,388 @@
+<html><head>
+    <title>FileNotFoundError: [Errno 2] No such file or directory: 'Telengana.ml' // Werkzeug Debugger</title>
+    <link rel="stylesheet" href=""?__debugger__=yes&amp;cmd=resource&amp;f=style.css" type="text/css">
+    <!-- We need to make sure this has a favicon so that the debugger does
+         not by accident trigger a request to /favicon.ico which might
+         change the application state. -->
+    <link rel="shortcut icon" href=""?__debugger__=yes&amp;cmd=resource&amp;f=console.png">
+    <script src="?__debugger__=yes&amp;cmd=resource&amp;f=jquery.js"></script>
+    <script src="?__debugger__=yes&amp;cmd=resource&amp;f=debugger.js"></script>
+    <script type="text/javascript">
+      var TRACEBACK = 139985897561920,
+          CONSOLE_MODE = false,
+          EVALEX = true,
+          EVALEX_TRUSTED = false,
+          SECRET = "ldXOy1k3E26JMCCHARPO";
+    </script>
+  </head>
+  <body style="background-color: #fff">
+    <div class="debugger">
+<h1>FileNotFoundError</h1>
+<div class="detail">
+  <p class="errormsg">FileNotFoundError: [Errno 2] No such file or directory: 'Telengana.ml'</p>
+</div>
+<h2 class="traceback" style="cursor: pointer;">Traceback <em>(most recent call last)</em></h2>
+<div class="traceback">
+  
+  <ul><li><div class="frame" id="frame-139986007074128">
+  <h4>File <cite class="filename">"/usr/local/lib/python3.8/dist-packages/flask/app.py"</cite>,
+      line <em class="line">2464</em>,
+      in <code class="function">__call__</code></h4>
+  <div class="source library"><pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws"></span> </pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>def __call__(self, environ, start_response):</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>"""The WSGI server calls the Flask application object as the</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>WSGI application. This calls :meth:`wsgi_app` which can be</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>wrapped to applying middleware."""</pre>
+<pre class="line current"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>return self.wsgi_app(environ, start_response)</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws"></span> </pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>def __repr__(self):</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>return "&lt;%s %r&gt;" % (self.__class__.__name__, self.name)</pre></div>
+</div>
+
+</li><li><div class="frame" id="frame-139986007075136">
+  <h4>File <cite class="filename">"/usr/local/lib/python3.8/dist-packages/flask/app.py"</cite>,
+      line <em class="line">2450</em>,
+      in <code class="function">wsgi_app</code></h4>
+  <div class="source library"><pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>try:</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                </span>ctx.push()</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                </span>response = self.full_dispatch_request()</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>except Exception as e:</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                </span>error = e</pre>
+<pre class="line current"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                </span>response = self.handle_exception(e)</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>except:  # noqa: B001</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                </span>error = sys.exc_info()[1]</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                </span>raise</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>return response(environ, start_response)</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>finally:</pre></div>
+</div>
+
+</li><li><div class="frame" id="frame-139985898116528">
+  <h4>File <cite class="filename">"/usr/local/lib/python3.8/dist-packages/flask_cors/extension.py"</cite>,
+      line <em class="line">161</em>,
+      in <code class="function">wrapped_function</code></h4>
+  <div class="source library"><pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span># Wrap exception handlers with cross_origin</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span># These error handlers will still respect the behavior of the route</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>if options.get('intercept_exceptions', True):</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>def _after_request_decorator(f):</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                </span>def wrapped_function(*args, **kwargs):</pre>
+<pre class="line current"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                    </span>return cors_after_request(app.make_response(f(*args, **kwargs)))</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                </span>return wrapped_function</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws"></span> </pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>if hasattr(app, 'handle_exception'):</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                </span>app.handle_exception = _after_request_decorator(</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                    </span>app.handle_exception)</pre></div>
+</div>
+
+</li><li><div class="frame" id="frame-139986004699984">
+  <h4>File <cite class="filename">"/usr/local/lib/python3.8/dist-packages/flask/app.py"</cite>,
+      line <em class="line">1867</em>,
+      in <code class="function">handle_exception</code></h4>
+  <div class="source library"><pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span># if we want to repropagate the exception, we can attempt to</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span># raise it with the whole traceback in case we can do that</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span># (the function was actually called from the except part)</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span># otherwise, we just raise the error again</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>if exc_value is e:</pre>
+<pre class="line current"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                </span>reraise(exc_type, exc_value, tb)</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>else:</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                </span>raise e</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws"></span> </pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>self.log_exception((exc_type, exc_value, tb))</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>server_error = InternalServerError()</pre></div>
+</div>
+
+</li><li><div class="frame" id="frame-139985900305952">
+  <h4>File <cite class="filename">"/usr/local/lib/python3.8/dist-packages/flask/_compat.py"</cite>,
+      line <em class="line">39</em>,
+      in <code class="function">reraise</code></h4>
+  <div class="source library"><pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>import collections.abc as collections_abc</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws"></span> </pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>def reraise(tp, value, tb=None):</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>if value.__traceback__ is not tb:</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>raise value.with_traceback(tb)</pre>
+<pre class="line current"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>raise value</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws"></span> </pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>implements_to_string = _identity</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws"></span> </pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws"></span>else:</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>iterkeys = lambda d: d.iterkeys()</pre></div>
+</div>
+
+</li><li><div class="frame" id="frame-139986006393616">
+  <h4>File <cite class="filename">"/usr/local/lib/python3.8/dist-packages/flask/app.py"</cite>,
+      line <em class="line">2447</em>,
+      in <code class="function">wsgi_app</code></h4>
+  <div class="source library"><pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>ctx = self.request_context(environ)</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>error = None</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>try:</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>try:</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                </span>ctx.push()</pre>
+<pre class="line current"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                </span>response = self.full_dispatch_request()</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>except Exception as e:</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                </span>error = e</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                </span>response = self.handle_exception(e)</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>except:  # noqa: B001</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                </span>error = sys.exc_info()[1]</pre></div>
+</div>
+
+</li><li><div class="frame" id="frame-139985895079744">
+  <h4>File <cite class="filename">"/usr/local/lib/python3.8/dist-packages/flask/app.py"</cite>,
+      line <em class="line">1952</em>,
+      in <code class="function">full_dispatch_request</code></h4>
+  <div class="source library"><pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>request_started.send(self)</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>rv = self.preprocess_request()</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>if rv is None:</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                </span>rv = self.dispatch_request()</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>except Exception as e:</pre>
+<pre class="line current"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>rv = self.handle_user_exception(e)</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>return self.finalize_request(rv)</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws"></span> </pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>def finalize_request(self, rv, from_error_handler=False):</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>"""Given the return value from a view function this finalizes</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>the request by converting it into a response and invoking the</pre></div>
+</div>
+
+</li><li><div class="frame" id="frame-139986058585952">
+  <h4>File <cite class="filename">"/usr/local/lib/python3.8/dist-packages/flask_cors/extension.py"</cite>,
+      line <em class="line">161</em>,
+      in <code class="function">wrapped_function</code></h4>
+  <div class="source library"><pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span># Wrap exception handlers with cross_origin</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span># These error handlers will still respect the behavior of the route</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>if options.get('intercept_exceptions', True):</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>def _after_request_decorator(f):</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                </span>def wrapped_function(*args, **kwargs):</pre>
+<pre class="line current"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                    </span>return cors_after_request(app.make_response(f(*args, **kwargs)))</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                </span>return wrapped_function</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws"></span> </pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>if hasattr(app, 'handle_exception'):</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                </span>app.handle_exception = _after_request_decorator(</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                    </span>app.handle_exception)</pre></div>
+</div>
+
+</li><li><div class="frame" id="frame-139986058585280">
+  <h4>File <cite class="filename">"/usr/local/lib/python3.8/dist-packages/flask/app.py"</cite>,
+      line <em class="line">1821</em>,
+      in <code class="function">handle_user_exception</code></h4>
+  <div class="source library"><pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>return self.handle_http_exception(e)</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws"></span> </pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>handler = self._find_error_handler(e)</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws"></span> </pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>if handler is None:</pre>
+<pre class="line current"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>reraise(exc_type, exc_value, tb)</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>return handler(e)</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws"></span> </pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>def handle_exception(self, e):</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>"""Handle an exception that did not have an error handler</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>associated with it, or that was raised from an error handler.</pre></div>
+</div>
+
+</li><li><div class="frame" id="frame-139986006393472">
+  <h4>File <cite class="filename">"/usr/local/lib/python3.8/dist-packages/flask/_compat.py"</cite>,
+      line <em class="line">39</em>,
+      in <code class="function">reraise</code></h4>
+  <div class="source library"><pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>import collections.abc as collections_abc</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws"></span> </pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>def reraise(tp, value, tb=None):</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>if value.__traceback__ is not tb:</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>raise value.with_traceback(tb)</pre>
+<pre class="line current"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>raise value</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws"></span> </pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>implements_to_string = _identity</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws"></span> </pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws"></span>else:</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>iterkeys = lambda d: d.iterkeys()</pre></div>
+</div>
+
+</li><li><div class="frame" id="frame-139986007075376">
+  <h4>File <cite class="filename">"/usr/local/lib/python3.8/dist-packages/flask/app.py"</cite>,
+      line <em class="line">1950</em>,
+      in <code class="function">full_dispatch_request</code></h4>
+  <div class="source library"><pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>self.try_trigger_before_first_request_functions()</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>try:</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>request_started.send(self)</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>rv = self.preprocess_request()</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>if rv is None:</pre>
+<pre class="line current"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                </span>rv = self.dispatch_request()</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>except Exception as e:</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>rv = self.handle_user_exception(e)</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>return self.finalize_request(rv)</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws"></span> </pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>def finalize_request(self, rv, from_error_handler=False):</pre></div>
+</div>
+
+</li><li><div class="frame" id="frame-139986004697824">
+  <h4>File <cite class="filename">"/usr/local/lib/python3.8/dist-packages/flask/app.py"</cite>,
+      line <em class="line">1936</em>,
+      in <code class="function">dispatch_request</code></h4>
+  <div class="source library"><pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>getattr(rule, "provide_automatic_options", False)</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>and req.method == "OPTIONS"</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>):</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>return self.make_default_options_response()</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span># otherwise dispatch to the handler for that endpoint</pre>
+<pre class="line current"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>return self.view_functions[rule.endpoint](**req.view_args)</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws"></span> </pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>def full_dispatch_request(self):</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>"""Dispatches the request and on top of that performs request</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>pre and postprocessing as well as HTTP exception catching and</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>error handling.</pre></div>
+</div>
+
+</li><li><div class="frame" id="frame-139985878113536">
+  <h4>File <cite class="filename">"/home/ubuntu/flask_app/app_v4.py"</cite>,
+      line <em class="line">205</em>,
+      in <code class="function">forecast</code></h4>
+  <div class="source "><pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws"></span> </pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws"></span> </pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws"></span>@app.route('/forecast',methods=['GET'])</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws"></span>def forecast():</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>region = str(request.args["region"])</pre>
+<pre class="line current"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>forecast = forecast_cases(region)</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>agent = request.headers.get('User-Agent')</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>pattern = r"(Windows|CrOS|Android|Macintosh|iPhone|ipad|iPod)"</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>try:</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>agent = re.findall(pattern, agent)[0]</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>except:</pre></div>
+</div>
+
+</li><li><div class="frame" id="frame-139985878111616">
+  <h4>File <cite class="filename">"/home/ubuntu/flask_app/main_app_v3.py"</cite>,
+      line <em class="line">126</em>,
+      in <code class="function">forecast_cases</code></h4>
+  <div class="source "><pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws"></span>#     print("DONE")</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>return "DONE"</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws"></span> </pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws"></span>def forecast_cases(region, n=7, return_all=False):</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws"></span> </pre>
+<pre class="line current"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>model_fit = joblib.load(region+".ml")</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">    </span># multi-step out-of-sample forecast</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>forecast, std_error, confidence_interval = model_fit.forecast(steps=n)</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>forecast = [round(cases) for cases in forecast]</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>if return_all:</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>return forecast, std_error, confidence_interval</pre></div>
+</div>
+
+</li><li><div class="frame" id="frame-139985878110848">
+  <h4>File <cite class="filename">"/usr/local/lib/python3.8/dist-packages/joblib/numpy_pickle.py"</cite>,
+      line <em class="line">577</em>,
+      in <code class="function">load</code></h4>
+  <div class="source library"><pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>fobj = filename</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>filename = getattr(fobj, 'name', '')</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>with _read_fileobject(fobj, filename, mmap_mode) as fobj:</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>obj = _unpickle(fobj)</pre>
+<pre class="line before"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">    </span>else:</pre>
+<pre class="line current"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">        </span>with open(filename, 'rb') as f:</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">            </span>with _read_fileobject(f, filename, mmap_mode) as fobj:</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                </span>if isinstance(fobj, str):</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                    </span># if the returned file object is a string, this means we</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                    </span># try to load a pickle file generated with an version of</pre>
+<pre class="line after"><img src="?__debugger__=yes&amp;cmd=resource&amp;f=console.png" title="Open an interactive python shell in this frame"><span class="ws">                    </span># Joblib so we load it with joblib compatibility function.</pre></div>
+</div>
+</li></ul>
+  <blockquote>FileNotFoundError: [Errno 2] No such file or directory: 'Telengana.ml'</blockquote>
+</div>
+
+<div class="plain" style="display: none;">
+  <form action="/?__debugger__=yes&amp;cmd=paste" method="post">
+    <p>
+      <input type="hidden" name="language" value="pytb">
+      This is the Copy/Paste friendly version of the traceback.  <span class="pastemessage">You can also paste this traceback into
+      a <a href=""https://gist.github.com/">gist</a>:
+      <input type="submit" value="create paste"></span>
+    </p>
+    <pre>Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/flask_app/app_v4.py", line 205, in forecast
+    forecast = forecast_cases(region)
+  File "/home/ubuntu/flask_app/main_app_v3.py", line 126, in forecast_cases
+    model_fit = joblib.load(region+".ml")
+  File "/usr/local/lib/python3.8/dist-packages/joblib/numpy_pickle.py", line 577, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'Telengana.ml'</pre>
+  </form>
+</div>
+<div class="explanation">
+  The debugger caught an exception in your WSGI application.  You can now
+  look at the traceback which led to the error.  <span class=""><p>To switch between the interactive traceback and the plaintext one, you can click on the "Traceback" headline.  From the text traceback you can also create a paste of it. For code execution mouse-over the frame you want to debug and click on the console icon on the right side.</p><p>You can execute arbitrary Python code in the stack frames and there are some extra helpers available for introspection:</p><ul><li><code>dump()</code> shows all variables in the frame</li><li><code>dump(obj)</code> dumps all that's known about the object</li></ul></span>
+</div>
+      <div class="footer">
+        Brought to you by <strong class="arthur">DON'T PANIC</strong>, your
+        friendly Werkzeug powered traceback interpreter.
+      </div>
+    </div>
+
+    <div class="pin-prompt">
+      <div class="inner">
+        <h3>Console Locked</h3>
+        <p>
+          The console is locked and needs to be unlocked by entering the PIN.
+          You can find the PIN printed out on the standard output of your
+          shell that runs the server.
+        </p><form>
+          <p>PIN:
+            <input type="text" name="pin" size="14">
+            <input type="submit" name="btn" value="Confirm Pin">
+        </p></form>
+      </div>
+    </div>
+  
+
+
+<!--
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ubuntu/flask_app/app_v4.py", line 205, in forecast
+    forecast = forecast_cases(region)
+  File "/home/ubuntu/flask_app/main_app_v3.py", line 126, in forecast_cases
+    model_fit = joblib.load(region+".ml")
+  File "/usr/local/lib/python3.8/dist-packages/joblib/numpy_pickle.py", line 577, in load
+    with open(filename, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'Telengana.ml'
+
+-->
+</body></html>
