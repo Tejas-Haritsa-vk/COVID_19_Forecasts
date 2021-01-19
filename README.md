@@ -1,4 +1,4 @@
 # COVID_19_Forecasts
-covid-19 forecasts
-
-Please open the HTML files in "Website Prediction History" to visulize the project when in action.
+### Covid Forecasts App Deployed on Heroku
+This Project features a Webapp to predict the covid cases for the next 30 Days using Machine Learning. 
+To view the project in action, Please visit "<a href="https://covidforecasts-webapp.herokuapp.com/">https://covidforecasts-webapp.herokuapp.com/</a>"
